@@ -1,13 +1,23 @@
 {
-    "name": "panchopensmart/potential-train",
-    "require": {
-        "panchopensmart/potential-train": "v0.0.1"
-        
+    "name": "a.polupanov/project",
+    "description": "test project in composer",
+    "type": "library",
+    "authors": [
+      {
+        "name": "Alexandr Polupanov",
+        "email": "apel0491work@gmail.com"
+      }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+      "psr-4": {
+        "a.polupanov\\project\\": "src/"
+      }
     },
-    "repositories": [
-        {
-            "type": "git",
-            "url": "https://github.com/panchopensmart/potential-train.git"
-        }
-    ]
-}
+    "autoload-dev": {
+      "psr-4": {
+        "a.polupanov\\project\\": "tests/"
+      }
+    },
+    "require": {}
+  }
