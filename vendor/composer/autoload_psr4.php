@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'a.polupanov\\project\\' => array($baseDir . '/src', $baseDir . '/tests'),
+    'panchopensmart\\potential-train\\' => array($baseDir . '/src', $baseDir . '/tests'),
 );

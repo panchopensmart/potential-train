@@ -1,5 +1,5 @@
 {
-    "name": "a.polupanov/project",
+    "name": "panchopensmart/potential-train",
     "description": "test project in composer",
     "type": "library",
     "authors": [
@@ -11,13 +11,14 @@
     "minimum-stability": "stable",
     "autoload": {
       "psr-4": {
-        "a.polupanov\\project\\": "src/"
+        "panchopensmart\\potential-train\\": "src/"
       }
     },
     "autoload-dev": {
       "psr-4": {
-        "a.polupanov\\project\\": "tests/"
+        "panchopensmart\\potential-train\\": "tests/"
       }
     },
-    "require": {}
+    "require": {
+    }
   }
